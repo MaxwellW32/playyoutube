@@ -15,7 +15,10 @@ export default function Home() {
 
       <ReactPlayer
         loop={true}
-        url={urlInput} />
+        url={urlInput}
+        controls={true}
+      />
+
     </main>
   )
 }
